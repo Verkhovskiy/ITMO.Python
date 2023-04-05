@@ -1,5 +1,5 @@
 import time
-delay = 3
-a = int(input())
-print(a**2)
+delay = 5
+a = int(input("Input number to square => "))
 time.sleep(delay)
+print("Squared number is: " + str(a**2))
